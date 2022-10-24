@@ -1,0 +1,58 @@
+.content{
+    display: flex;
+    grid-area: content;
+    flex-direction: column;
+    border: 5px solid lightgray;
+    text-align: justify;
+}
+
+.blog-header{
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.intro{
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(246, 246, 245);
+}
+
+.blog-content{
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+li span {
+    font-weight: bold;
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+.date{
+    color: gray;
+}
+
+#lion{
+    width: 50%;
+    height: 50%;
+    border: 0.5px solid gray;
+    margin: 10px;
+    box-shadow: 5px 5px bisque;
+}
+
+figcaption{
+    font-style: italic;
+}

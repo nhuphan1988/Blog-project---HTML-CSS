@@ -1,0 +1,43 @@
+.left-box{
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation{
+    height: 180px;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(246, 246, 245);
+}
+
+.social-sharing{
+    height: 180px;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(246, 246, 245);
+}
+
+.author-info{
+    height: 280px;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(246, 246, 245);
+}
+
+#avatar{
+    width: 50px;
+    height: 60px;
+}
+.author-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+em{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+}

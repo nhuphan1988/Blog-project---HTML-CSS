@@ -1,0 +1,34 @@
+.example-photo{
+    color:blueviolet;
+}
+
+.gallery{
+    display: flex;
+}
+
+.photo-box{
+    width: 80px;
+    height: 54px;
+    border: 1px solid lightgray;
+
+}
+
+#one{
+    background-image: url("Image/bee-3607595_640.jpg");
+    background-size: contain;
+}
+
+#two{
+    background-image: url("Image/bee-5618012_640.jpg");
+    background-size: contain;
+}
+
+#three{
+    background-image: url("Image/bee-6127510_640.jpg");
+    background-size: contain;
+}
+
+#four{
+    background-image: url("Image/bee-7250540_640.jpg");
+    background-size: contain;
+}
